@@ -1,0 +1,65 @@
+body{
+
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(//images.pexels.com/photos/1907785/pexels-photo-1907785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+    );
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+img {
+  width: 10em;
+  height: 10em;
+  border-radius: 20%;
+  margin: 2%;
+}
+img:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    border-radius: 10%;
+    background-color: #ab99f7;
+    color:rgb(255, 255, 255);
+    padding: 0.5em;
+    margin: 20px;
+
+}
+a:hover{
+    background-color: #aa99f77f;
+
+}
+body h2{
+    background-color: #aa99f7;
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+        
+}
+.book-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+
+}
+.book{
+    width: 30%;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80vh
+}
+.link{
+    text-decoration: none;
+    border-radius: 10%;
+    background-color: #ab99f7;
+    color:rgb(255, 255, 255);
+    padding: 0.5em;
+    position: relative;
+    top: 10vh;
+}
